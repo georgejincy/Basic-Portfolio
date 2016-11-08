@@ -44,7 +44,7 @@ header h1{
 #horzNav{
 	float: right;
 	z-index: 3;
-	margin-right: 330px;
+	margin-right: 350px;
 	margin-top: 20px;
 	xbackground: #4aaaa5;
 	xwidth:20%;
@@ -67,6 +67,7 @@ section#about, section#contact, section#portfolio{
 	background: #ffffff;
 	width: 650px;
 	padding: 22px;
+	margin-bottom: 20px;
 }
 h2{
 	padding: 10px;
@@ -89,7 +90,7 @@ p{
 	margin-bottom: 10px;
 }
 aside{
-	width: 300px;
+	width: 250px;
 	margin-top: 115px;
 	margin-right: 310px;
 	float:right;
@@ -97,6 +98,10 @@ aside{
 	padding: 22px;
 	xwidth: 270px;
 
+}
+.social-icons{
+	height: 65px;
+	width: 65px;
 }
 
 /*#horzNav{
