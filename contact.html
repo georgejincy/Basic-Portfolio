@@ -3,7 +3,7 @@
 
 <head>
 	<title>Hello | Jincy</title>
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 </head>
 
@@ -13,10 +13,9 @@
 		<!-- Header -->
 		<header>
 			<h1>Jincy George</h1>
-		</header>
 
-		<!--Navigation -->
-		<nav id = "horzNav">
+			<!--Navigation -->
+			<nav id = "horzNav">
 			<p>
 			<a href = "index.html">About </a>|
 			<a href = "portfolio.html"> Portfolio </a>| 
@@ -24,6 +23,8 @@
 			</p>
 
 		</nav>
+		</header>
+
 
 		<main id = "content">
 			
@@ -32,14 +33,22 @@
 
 				<h2>Contact<hr></h2>
 
-				<form>
-					Name<br>
-					<input type="text" name="name" size="50"><br>
-					Email<br>
-					<input type="text" name="email" size="50"><br>
-					Message<br>
-					<textarea name="message" rows="6" cols="45"></textarea><br>
-					<input type="submit" name="submit">
+				<form id="cust-form">
+					<div>
+						Name<br>
+						<input type="text" name="name" size="50"><br>
+					</div>
+					<div>
+						Email<br>
+						<input type="text" name="email" size="50"><br>
+					</div>
+					<div>
+						Message<br>
+						<textarea name="message" rows="10" cols="45"></textarea><br>
+					</div>
+					<div>
+						<input type="submit" name="submit" id="cust-submit">
+					</div>
 				</form>
 				
 				
@@ -47,7 +56,7 @@
 			</section>
 			
 			<!--Social section-->
-			<section id = "social">
+			<aside id = "social">
 				
 				<h3>Connect with me<hr></h3>
 				
@@ -58,7 +67,7 @@
 				</p>
 
 			<!--End of social-->
-			</section>
+			</aside>
 		<!--End of main-->	
 		</main>
 

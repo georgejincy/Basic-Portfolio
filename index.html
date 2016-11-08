@@ -3,7 +3,8 @@
 
 <head>
 	<title>Hello | Jincy</title>
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<!--Reference to CSS file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/reset.css">
 </head>
 
@@ -13,19 +14,20 @@
 		<!-- Header -->
 		<header>
 			<h1>Jincy George</h1>
+
+			<!--Navigation -->
+			<nav id = "horzNav">
+				<p>
+				<a href = "index.html">About </a>|
+				<a href = "portfolio.html"> Portfolio </a>| 
+				<a href = "contact.html"> Contact </a>
+				</p>
+
+			</nav>
+
 		</header>
 
-		<!--Navigation -->
-		<nav id = "horzNav">
-			<p>
-			<a href = "index.html">About </a>|
-			<a href = "portfolio.html"> Portfolio </a>| 
-			<a href = "contact.html"> Contact </a>
-			</p>
-
-		</nav>
-
-		<main id = "content">
+		<div id = "content">
 			
 			<!--About section-->
 			<section id = "about">
@@ -33,26 +35,25 @@
 				<h2>About me<hr></h2>
 				
 				<img src="assets/images/bio-image.jpg" alt="My picture" id="bio-image">
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+				<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
 
 			<!--End of about-->	
 			</section>
 			
 			<!--Social section-->
-			<section id = "social">
+			<aside id = "social">
 				
 				<h3>Connect with me<hr></h3>
 				
-				<p>
-					<img src="assets/images/1478562548_social_media_logo_github.png">
-					<img src="assets/images/1478562726_social_media_logo_linkedin.png">
-					<img src="assets/images/1478562753_stackoverflow.png">
-				</p>
+					<img class = "social-icons" src="assets/images/1478562548_social_media_logo_github.png" alt="github logo">
+					<img class = "social-icons" src="assets/images/1478562726_social_media_logo_linkedin.png" alt="linkedin logo">
+					<img class = "social-icons" src="assets/images/1478562753_stackoverflow.png" alt="stack logo">
 
 			<!--End of social-->
-			</section>
+			</aside>
 		<!--End of main-->	
-		</main>
+		</div>
 
 		<!--Footer section-->
 		<footer>
