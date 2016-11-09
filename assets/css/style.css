@@ -13,7 +13,6 @@ h1, h2, h3{
 }
 .wrapper{
 	position: relative;
-	xfont-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	margin: 0 auto;
 	padding: 20px;
 	width: 960px;
@@ -90,7 +89,7 @@ p{
 	margin-bottom: 10px;
 }
 aside{
-	width: 250px;
+	width: 270px;
 	margin-top: 115px;
 	margin-right: 310px;
 	float:right;
