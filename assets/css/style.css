@@ -187,8 +187,8 @@ ul.workgallery span{
 footer{
 	background: #666666;
 	clear: both;
-	position: absolute;
-	bottom:0;
+	position: relative;
+	xbottom:0;
 	width: 100%;
 	z-index: 1;
 	text-align: center;
