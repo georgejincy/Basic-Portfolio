@@ -20,38 +20,9 @@ h2{
 h3{
 	font-size: 20px;
 }
-/* html, body {
-	height: 100%;
-}
-.wrapper {
-	min-height: 100%;
-	margin: 0 auto -90px; the bottom margin is the negative value of the footer's height
-}
-footer, .push {
-	height: 90px; '.push' must be the same height as 'footer'
-} */
-/*sticky footer stuff*/
-/*http://ryanfait.com/html5-sticky-footer/*/
+.wrapper{
 
-* {
-	margin: 0;
 }
-
-html, body {
-	height: 100%;
-}
-
-.wrapper {
-	min-height: 100%;
-	height: auto !important; 
-	height: 100%;
-	margin: 0 auto -90px; 
-}
-footer, .push {
-	height: 90px; 
-}
-/*end sticky footer stuff*/
-
 header{
 	background: #ffffff;
 	border: 2px solid #cccccc;
@@ -84,11 +55,6 @@ nav#horzNav{
 header a {
 	text-decoration: none;
 	color: #777777;
-}
-header a:hover{
-	xfont-size: 18px;
-	font-weight: bold;
-	text-shadow: 2px 2px 3px #4aaaa5;
 }
 .content{
 	/*clear float and make overflow, auto to make 
@@ -145,11 +111,6 @@ img.gallerypic{
 	width: 255px;
 	height: 190px;
 	margin: 20px;
-	xopacity: 0.75;
-}
-ul.workgallery li:hover img{
-	opacity: 0.75;
-	box-shadow: 2px 2px 10px #4aaaa5;
 }
 ul.workgallery span{
 	width: 255px;
@@ -162,11 +123,8 @@ ul.workgallery span{
 	background: #4aaaa5;
 	color: #ffffff;
 	margin: 20px;
-	opacity: 0.75;
 }
-ul.workgallery li:hover span{
-	opacity: 1.5;
-}
+
 #cust-form div{
 	float: left;
 	xwidth: 375px;
